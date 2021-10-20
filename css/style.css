@@ -1,0 +1,40 @@
+@import url(components/buttons.css);
+@import url(components/container.css);
+@import url(//db.onlinewebfonts.com/c/e43f1db066f2bdd417313735b51574b6?family=Brixton+Outline);
+
+@font-face {font-family: "Brixton Outline"; src: url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.eot"); src: url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.woff") format("woff"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.svg#Brixton Outline") format("svg"); }
+
+body {
+    background-color:whitesmoke ;
+  }
+  #F5F3EF
+h1,h2,h3,p {
+    font-family: 'Brixton Outline',Abhaya Libre;                                          
+    color: #642714;
+}
+
+h1 {
+    color: #642714;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Brixton Outline'
+    
+}
+
+h2 {
+  color:#642714;;
+  text-align: left;
+}
+
+h3 {
+  color:#642714;
+  text-align: left;
+}
+
+p {
+    font-family: Abhaya Libre;
+    font-size: 20px;
+}
+
+
+

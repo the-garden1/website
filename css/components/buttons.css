@@ -1,0 +1,57 @@
+
+.btn-cream {
+    background: #F5F3EF;
+    padding: 20px;
+    color: #642714;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color:black;
+    border: 1px solid #642714;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 15px;
+
+}
+
+.btn-brown {
+    background-color: #642714;
+    padding: 20px;
+    color: #F5F3EF;
+    text-decoration: none;
+    border-radius:5px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 15
+}
+
+
+.btn-back-brown {
+    background-color: rgba(100, 39, 20, 0.65);
+    padding: 20px;
+    color: #F5F3EF;
+    text-decoration: none;
+    border-radius:5px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 15
+}
+
+
+.btn-brown-clear {
+    background-color: rgba(100, 39, 20, 0.80);
+    padding: 20px;
+    color: #F5F3EF;
+    text-decoration: none;
+    border-radius:5px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 15
+}
