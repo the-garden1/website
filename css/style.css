@@ -13,6 +13,8 @@ h1,h2,h3,p {
     color: #642714;
 }
 
+
+
 h1 {
 position: center;
 
@@ -27,6 +29,7 @@ text-align: center;
 letter-spacing: 0.10em;
 
 color: #642714;
+}
 
 h2 {
 position: center;
@@ -42,6 +45,8 @@ text-align: center;
 
 color: #642714;
 
+}
+
 h3 {
   color:#642714;
   text-align: left;
@@ -50,5 +55,7 @@ h3 {
 p {
     font-family: Abhaya Libre;
     font-size: 20px;
-}
+ }
+
+
 

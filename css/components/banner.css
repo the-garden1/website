@@ -1,7 +1,7 @@
 .banner{ 
-  background-image: url("../../images/banner.png");
+  background-color: #642714
   color: white ;
-  padding: 150px 0px ;
+  padding: 10px 0px ;
   background-size: cover;
   background-position: center; 
 
@@ -9,11 +9,23 @@
   .banner h1 { 
     font-size: 50px ;
     color:#642714 ;
+    margin-bottom: 0;
+    margin-top: 40;
      }
 
   .banner h2 {
     font-size: : 30px;
     color: #642714;
-    font-weight: lighter;
+    font-weight: bolder;
     opacity: 0.8;
-    margin-bottom: 40px; }
+    margin-bottom: 20px; 
+    margin-top: 10px;
+    text-align: center;
+
+
+  }
+
+.banner img {
+
+  position: absolute;
+}

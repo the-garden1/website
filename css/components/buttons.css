@@ -55,3 +55,61 @@
     font-size: 40px;
     line-height: 15
 }
+
+
+.btn-cream7 {
+    background: #F5F3EF;
+    padding: 20px;
+    color: #642714;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color:black;
+    border: 1px solid #642714;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 15px;
+    left: 50px;
+    margin-left:536px;
+    margin-top: 10px;
+    
+
+}
+
+.btn-brown7 {
+    background-color: #642714;
+    padding: 20px;
+    color: #F5F3EF;
+    text-decoration: none;
+    border-radius:5px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 15;
+    margin-left:125px;
+
+}
+
+.btn-cream8 {
+    background: #F5F3EF;
+    padding: 20px;
+    color: #642714;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color:black;
+    border: 1px solid #642714;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 15px;
+    left: 50px;
+    margin-left:620px;
+    margin-top: 381px;
+    margin-bottom: 600px;
+    position: absolute;
+    
+
+}

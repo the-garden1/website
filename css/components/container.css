@@ -1,4 +1,29 @@
 .container{
-    width: 900px;
+    width: 556px;
     margin: 10px auto;
+    height: 25px;
+
+}
+
+.container img {
+
+right: 1156px;
+bottom: 0px;
+	position: absolute;
+}
+
+.container h3 {
+
+margin-left: 120px;
+width: 900px;
+right: 700px;
+margin-top: 100px;
+
+
+}
+
+.container p {
+
+margin-left: 120px
+
 }
