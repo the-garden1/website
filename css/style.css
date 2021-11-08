@@ -293,3 +293,160 @@ iframe {
   
 
 }
+
+/*------------------------------------------------------------------
+
+/*------------------------------------------------------------------
+
+
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+@font-face {font-family: "Brixton Outline"; src: url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.eot"); src: url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.woff") format("woff"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.svg#Brixton Outline") format("svg"); }
+
+body{
+    color: #560905;
+    margin: 0px auto;
+}
+
+/* Haut de la page */
+
+.top-page {
+    padding: 25px;
+    background-color: #e5e7e6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.big-title {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.title {
+    font-family: 'Brixton Outline';
+    font-size: 50px;
+    line-height: 3px;
+}
+
+.subtitle {
+    font-family: 'Zen Antique';
+    font-size: 30px;
+    margin-top: 0px;
+    line-height: 10px;
+}
+
+.icons img {
+    height: 45px;
+    position: relative;
+    text-align: right;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+/* Second titre */
+
+.middle-page {
+    background-color: white;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.second-title {
+    font-family: 'Brixton Outline';
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+/* landing page */
+
+.landing-page {
+    height: 1000px;
+    padding-top: 30px;
+    background: url('images/background.png') no-repeat fixed;
+    background-size: cover;
+    background-size: 100% auto;
+    background-position: bottom;
+}
+
+.line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.card {
+    display: flex;
+    border: solid 2px #560905;
+    color: #560905;
+    width: 550px;
+    padding: 10px;
+    background-color: #FFFFFFDF;
+    margin-bottom: 20px;
+}
+.profil {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    margin-right: 20px;
+}
+
+.rigth {
+    margin-top: 0px;
+    line-height: 2px;
+}
+
+.last-name {
+    font-family: 'Brixton Outline';
+    font-size: 30px;
+}
+
+.first-name {
+    font-family: 'Zen Antique';
+    font-size: 30px;
+}
+
+.fonction {
+    font-family: 'Zen Antique';
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bottom-landing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.back-home {
+    height: 75px;
+    width: 700px;
+    font-family: 'Zen Antique';
+    font-size: 40px;
+    color: #560905;
+    background-color: #FFFFFFDF;
+    border: solid 2px #560905;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.view-products {
+    height: 75px;
+    width: 700px;
+    font-family: 'Zen Antique';
+    font-size: 40px;
+    color: #FFFFFFDF;
+    background-color: #560905;
+    border-radius: 15px;
+    margin-top: 30px;
