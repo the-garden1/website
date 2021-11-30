@@ -64,7 +64,6 @@ p {
 
 body, html {
     height: 100%;
-    font-family: Ubuntu-Regular, sans-serif;
     background-color: #F5F3EF;
 }
 
@@ -115,10 +114,6 @@ input {
     border: none;
 }
 
-textarea {
-  outline: none;
-  border: none;
-}
 
 textarea:focus, input:focus {
   border-color: transparent !important;
@@ -140,19 +135,6 @@ label {
 }
 
 /*---------------------------------------------*/
-button {
-    outline: none !important;
-    border: none;
-    background: transparent;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-iframe {
-    border: none !important;
-}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -170,10 +152,6 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ login ]*/
 
-.limiter {
-  width: 100%;
-  margin: 0 auto;
-}
 
 .container-login100 {
   width: 100%;  
@@ -230,6 +208,7 @@ iframe {
   background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid transparent;
   border-radius: 10px;
+  margin-top: 10px;
 }
 
 
@@ -291,9 +270,13 @@ iframe {
 
 .imglogin {
   border-radius: 40px;
+  padding-top: 20px;
+  display: flex;
   
 
 }
+
+
 
 /*------------------------------------------------------------------
 
@@ -451,3 +434,157 @@ body{
     background-color: #560905;
     border-radius: 15px;
     margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+    //// payment page ////
+
+
+
+.wrapper1 {
+  width: 500px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.limiter1 {
+  width: 100%;
+  margin: 0 auto;}
+
+
+.container1 {
+    width: 85%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.checkout100-form {
+  width: 40%;
+}
+
+
+.l100-form-title {
+  font-family: Abhaya Libre;
+  font-size: 18px;
+  color: #403866;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+
+
+  width: 100%;
+  display: block;
+}
+
+
+.info {
+    justify-content: space-between;
+    display: flex;
+    width: 200%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+}
+.cc-info {
+    display: flex;
+    width: 175%;
+    justify-content: center;
+}
+
+
+
+@keyframes btn-hov {
+    100% {
+        background-color: #cfc9e1;
+        color: #4a3b76;
+        transform: scale(1.05)
+    }
+}
+
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+input::-webkit-input-placeholder { color: #642714;}
+input:-moz-placeholder { color: #642714;}
+input::-moz-placeholder { color: #642714;}
+input:-ms-input-placeholder { color: #642714;}
+
+textarea::-webkit-input-placeholder { color: #642714;}
+textarea:-moz-placeholder { color: #642714;}
+textarea::-moz-placeholder { color: #642714;}
+textarea:-ms-input-placeholder { color: #642714;}
+
+
+
+
+  input {
+        mfont-family: Abhaya Libre;
+    line-height: 1.2;
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: #642714;
+    display: block;
+    width: 70%;
+    background: transparent;
+    height: 47px;
+    padding: 0 20px 0 38px;
+    border: 1px solid #642714;
+    }
+@media (max-width: 736px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+
+
+    form h1 {
+        text-align: center;
+    }
+
+    .name,
+    .address-info,
+    .cc-info {
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        }
+
+     div {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        }
+    }
+
+    .street,
+    .cc-num {
+        text-align: center;
+        width: 243%;
+    }
+}
+
