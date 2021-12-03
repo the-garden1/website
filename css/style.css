@@ -26,13 +26,11 @@ display: center;
 align-items: center;
 text-align: center;
 letter-spacing: 0.10em;
-
 color: #642714;
 }
 
 h2 {
 position: center;
-
 font-family: Abhaya Libre;
 font-style: normal;
 font-weight: bold;
@@ -41,7 +39,6 @@ line-height: 41px;
 display: center;
 align-items: center;
 text-align: center;
-
 color: #642714;
 
 }
