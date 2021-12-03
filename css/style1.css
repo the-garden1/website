@@ -84,8 +84,7 @@ body{
     background-image:url(images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-color: #560905;
+    background-position: center;;
     height: 100%;
     display: grid;
     flex-direction: column;
