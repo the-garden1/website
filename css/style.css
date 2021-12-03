@@ -440,6 +440,96 @@ body{
 
 
 
+}
+
+/* fin du haut de la page */
+
+/* liens */
+
+.links {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.links .link {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Zen Antique';
+    color: #560905;
+}
+
+/* fin des liens */
+
+/* page principale */
+
+.landing-page {
+    background: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #560905;
+    height: 100%;
+    display: grid;
+    flex-direction: column;
+    padding-left: 30px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4);
+}
+
+.landing-page .text {
+    width: 500px;
+    max-height: 250px;
+    line-height: 20px;
+    box-shadow: 10px 10px 20px #560905;
+    background-color: #e5e7e6;
+    color: #560905;
+
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.landing-page .text h4 {
+    font-family: 'Zen Antique';
+    font-size: 35px;
+    text-align: center;
+}
+
+.landing-page .text p {
+    font-family: 'Zen Antique';
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    background-color: #560905a2;
+    left: 10px;
+    bottom: 0px;
+    grid-column: 1/5;
+    grid-row: 4/4;
+}
+
+.icon img {
+    width: 60px;
+}
+
+/* fin de la page principale */
+
+
+
 
 
 
