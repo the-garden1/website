@@ -437,9 +437,60 @@ body{
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
 
+@font-face {font-family: "Brixton Outline"; src: url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.eot"); src: url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.woff") format("woff"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e43f1db066f2bdd417313735b51574b6.svg#Brixton Outline") format("svg"); }
 
+body{
+    color: #560905;
+    margin: 0px auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
+/* Haut de la page */
+
+.top-page {
+    padding: 25px;
+    background-color: #e5e7e6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.big-title {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.title {
+    font-family: 'Brixton Outline';
+    font-size: 50px;
+    line-height: 3px;
+}
+
+.subtitle {
+    font-family: 'Zen Antique';
+    font-size: 30px;
+    margin-top: 0px;
+    line-height: 10px;
+}
+
+.icons img {
+    height: 45px;
+    position: relative;
+    text-align: right;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 30px;
 }
 
 /* fin du haut de la page */
@@ -527,7 +578,6 @@ body{
 }
 
 /* fin de la page principale */
-
 
 
 
